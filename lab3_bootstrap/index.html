@@ -1,83 +1,703 @@
-<!doctype html>
-<html lang="en">
+```html
+<!DOCTYPE html>
+<html lang="th">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Portfolio ของคมชาญ เหลืองตระกูล นักศึกษาสาขาภูมิศาสตร์ มหาวิทยาลัยเชียงใหม่">
+
+    <title>
+        คมชาญ เหลืองตระกูล — Portfolio
+    </title>
+
+
+    <!-- =====================================
+         GOOGLE FONTS
+
+         Thai  : Noto Sans Thai
+         English : Inter
+    ====================================== -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Thai:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+    <!-- CSS -->
+
     <link rel="stylesheet" href="style.css">
+
 </head>
 
+
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
+
+
+    <!-- =====================================
+         NAVIGATION
+    ====================================== -->
+
+    <nav>
+
+        <div class="logo">
+
+            <span class="en">
+                K.
+            </span>
+
+            คมชาญ
+
         </div>
+
+
+        <ul>
+
+            <li>
+                <a href="#home">
+                    หน้าหลัก
+                </a>
+            </li>
+
+            <li>
+                <a href="#about">
+                    เกี่ยวกับฉัน
+                </a>
+            </li>
+
+            <li>
+                <a href="#education">
+                    การศึกษา
+                </a>
+            </li>
+
+            <li>
+                <a href="#skills">
+                    ทักษะ
+                </a>
+            </li>
+
+            <li>
+                <a href="#contact">
+                    ติดต่อ
+                </a>
+            </li>
+
+        </ul>
+
     </nav>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    </nav>
-    <div class="container mt-4">
-        <div class="row">
-            <div class="col-4">
-                <div class="card card-height bg-color">
-                    <div class="card-body">
-                        hello, jnp
-                        <input type="text" class="form-control">
-                        <br>
-                        <button class="btn btn-success">ตกลง</button>
-                    </div>
+
+
+
+    <!-- =====================================
+         HERO
+    ====================================== -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+
+            <!-- HERO TEXT -->
+
+            <div class="hero-content">
+
+
+                <div class="eyebrow en">
+
+                    GEOGRAPHY STUDENT
+
                 </div>
-            </div>
-            <div class="col-8">
-                <div class="card card-height bg-color">
-                    <div class="card-body">
-                        map
-                    </div>
-                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-                        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-                        crossorigin="anonymous"></script>
+
+
+                <h1>
+
+                    คมชาญ<br>
+
+                    <span>
+                        เหลืองตระกูล
+                    </span>
+
+                </h1>
+
+
+                <div class="nickname">
+
+                    เจนิเป้อ
+
                 </div>
+
+
+                <p class="hero-description">
+
+                    นักศึกษาสาขาภูมิศาสตร์
+                    มหาวิทยาลัยเชียงใหม่
+                    ผู้สนใจการเรียนรู้โลกผ่านข้อมูล
+                    พื้นที่ เทคโนโลยี
+                    และความคิดสร้างสรรค์
+
+                </p>
+
+
+                <div class="hero-buttons">
+
+
+                    <a href="#about" class="btn btn-primary">
+
+                        ทำความรู้จักกัน
+
+                    </a>
+
+
+                    <a href="#skills" class="btn btn-secondary">
+
+                        ดูทักษะของฉัน
+
+                    </a>
+
+
+                </div>
+
+
             </div>
-        </div>
+
+
+
+            <!-- PROFILE PHOTO -->
+
+            <div class="hero-photo">
+
+
+                <div class="profile-photo">
+
+
+                    <img src="https://lh3.googleusercontent.com/a/ACg8ocKDgs0TlE6dfqymOSuGJS0Fzd3uUq4et0s4wiGBCfBaVR6E-CJPlw=s360-c-no"
+                        alt="คมชาญ เหลืองตระกูล">
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =====================================
+             ABOUT
+        ====================================== -->
+
+        <section id="about">
+
+
+            <div class="section-label en">
+
+                ABOUT ME
+
+            </div>
+
+
+            <h2 class="section-title">
+
+                เกี่ยวกับ<span>ฉัน</span>
+
+            </h2>
+
+
+            <div class="about-grid">
+
+
+                <!-- ABOUT CARD -->
+
+                <div class="card">
+
+
+                    <h3>
+
+                        สวัสดีครับ 👋
+
+                    </h3>
+
+
+                    <p>
+
+                        ผมคมชาญ เหลืองตระกูล
+                        หรือชื่อเล่นว่าเจนิเป้อ
+                        ปัจจุบันกำลังศึกษาอยู่ที่
+                        มหาวิทยาลัยเชียงใหม่
+                        สาขาวิชาภูมิศาสตร์
+
+                    </p>
+
+
+                    <br>
+
+
+                    <p>
+
+                        ผมสนใจการนำข้อมูล
+                        เทคโนโลยี
+                        และความคิดสร้างสรรค์
+                        มาประยุกต์ใช้เพื่อสร้างผลงาน
+                        ที่ทั้งสวยงาม เข้าใจง่าย
+                        และมีประโยชน์
+
+                    </p>
+
+
+                </div>
+
+
+
+                <!-- PERSPECTIVE -->
+
+                <div class="card">
+
+
+                    <h3>
+
+                        มุมมองของฉัน
+
+                    </h3>
+
+
+                    <p>
+
+                        สำหรับผม ภูมิศาสตร์ไม่ได้หมายถึง
+                        เพียงการศึกษาแผนที่หรือสถานที่
+                        แต่เป็นการทำความเข้าใจ
+                        ความสัมพันธ์ระหว่างผู้คน
+                        พื้นที่ และสิ่งแวดล้อม
+
+                    </p>
+
+
+                    <br>
+
+
+                    <p>
+
+                        ผมจึงสนใจการนำมุมมองเชิงพื้นที่
+                        มาผสมกับเทคโนโลยี
+                        และการออกแบบ
+                        เพื่อสื่อสารเรื่องราวต่าง ๆ
+                        ให้น่าสนใจมากขึ้น
+
+                    </p>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =====================================
+             EDUCATION
+        ====================================== -->
+
+        <section id="education">
+
+
+            <div class="section-label en">
+
+                EDUCATION
+
+            </div>
+
+
+            <h2 class="section-title">
+
+                การ<span>ศึกษา</span>
+
+            </h2>
+
+
+            <div class="card education-card">
+
+
+                <div class="education-icon">
+
+                    🎓
+
+                </div>
+
+
+                <div>
+
+
+                    <h3>
+
+                        มหาวิทยาลัยเชียงใหม่
+
+                    </h3>
+
+
+                    <div class="major">
+
+                        สาขาวิชาภูมิศาสตร์
+
+                    </div>
+
+
+                    <div class="student-id en">
+
+                        STUDENT ID · 670410007
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =====================================
+             SKILLS
+        ====================================== -->
+
+        <section id="skills">
+
+
+            <div class="section-label en">
+
+                MY SKILLS
+
+            </div>
+
+
+            <h2 class="section-title">
+
+                สิ่งที่<span>ฉันทำได้</span>
+
+            </h2>
+
+
+            <div class="skills-grid">
+
+
+                <!-- SKILL 01 -->
+
+                <div class="skill-card">
+
+
+                    <div class="skill-icon">
+
+                        &lt;/&gt;
+
+                    </div>
+
+
+                    <div class="skill-number en">
+
+                        01 · WEB
+
+                    </div>
+
+
+                    <h3>
+
+                        Web & HTML
+
+                    </h3>
+
+
+                    <p>
+
+                        สนใจการสร้างและออกแบบเว็บไซต์
+                        สามารถทำงานกับ HTML และ CSS
+                        รวมถึงเข้าใจโครงสร้างพื้นฐาน
+                        ของเว็บไซต์
+
+                    </p>
+
+
+                </div>
+
+
+
+                <!-- SKILL 02 -->
+
+                <div class="skill-card">
+
+
+                    <div class="skill-icon">
+
+                        ✦
+
+                    </div>
+
+
+                    <div class="skill-number en">
+
+                        02 · DESIGN
+
+                    </div>
+
+
+                    <h3>
+
+                        Creative & Visual Design
+
+                    </h3>
+
+
+                    <p>
+
+                        มีความสนใจด้านการออกแบบ
+                        การเลือกโทนสี
+                        การจัดวางองค์ประกอบ
+                        และการสร้างประสบการณ์
+                        ที่น่าสนใจสำหรับผู้ใช้งาน
+
+                    </p>
+
+
+                </div>
+
+
+
+                <!-- SKILL 03 -->
+
+                <div class="skill-card">
+
+
+                    <div class="skill-icon">
+
+                        ◎
+
+                    </div>
+
+
+                    <div class="skill-number en">
+
+                        03 · THINKING
+
+                    </div>
+
+
+                    <h3>
+
+                        Problem Solving
+
+                    </h3>
+
+
+                    <p>
+
+                        สามารถแบ่งปัญหาออกเป็นส่วน ๆ
+                        วิเคราะห์ความต้องการ
+                        และปรับปรุงผลงานจากข้อเสนอแนะ
+                        เพื่อให้ได้ผลลัพธ์ที่ตรงเป้าหมาย
+
+                    </p>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =====================================
+             PERSONAL INFORMATION
+        ====================================== -->
+
+        <section>
+
+
+            <div class="section-label en">
+
+                INFORMATION
+
+            </div>
+
+
+            <h2 class="section-title">
+
+                ข้อมูล<span>ส่วนตัว</span>
+
+            </h2>
+
+
+            <div class="info-grid">
+
+
+                <div class="info-card">
+
+
+                    <div class="info-label en">
+
+                        NAME
+
+                    </div>
+
+
+                    <div class="info-value">
+
+                        คมชาญ เหลืองตระกูล
+
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="info-card">
+
+
+                    <div class="info-label en">
+
+                        NICKNAME
+
+                    </div>
+
+
+                    <div class="info-value">
+
+                        เจนิเป้อ
+
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="info-card">
+
+
+                    <div class="info-label en">
+
+                        STUDENT ID
+
+                    </div>
+
+
+                    <div class="info-value en">
+
+                        670410007
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =====================================
+             CONTACT
+        ====================================== -->
+
+        <section id="contact">
+
+
+            <div class="section-label en">
+
+                GET IN TOUCH
+
+            </div>
+
+
+            <h2 class="section-title">
+
+                มาพูดคุย<span>กัน</span>
+
+            </h2>
+
+
+            <div class="card contact-card">
+
+
+                <p>
+
+                    หากต้องการพูดคุยเกี่ยวกับงาน
+                    โปรเจกต์ หรือเรื่องที่เกี่ยวข้องกับ
+                    ภูมิศาสตร์และเทคโนโลยี
+                    สามารถติดต่อผมได้
+
+                </p>
+
+
+                <a href="mailto:your@email.com" class="btn btn-primary">
+
+                    ส่งอีเมล
+
+                </a>
+
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =====================================
+         FOOTER
+    ====================================== -->
+
+    <footer>
+
+
+        <p>
+
+            Designed & Built by
+
+            <strong>
+
+                คมชาญ เหลืองตระกูล
+
+            </strong>
+
+        </p>
+
+
+        <p class="en">
+
+            GEOGRAPHY STUDENT
+            ·
+            CHIANG MAI UNIVERSITY
+
+        </p>
+
+
+    </footer>
+
 
 </body>
 
 </html>
+```
